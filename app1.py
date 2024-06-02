@@ -36,7 +36,7 @@ Please summarize the content of the following youtube video transcript text whic
 def get_transcript(youtube_video_url):
     try:
         video_id = youtube_video_url.split("=")[1]
-        transcript_text = YouTubeTranscriptApi.get_transcript(video_id)
+        transcript_text = YouTubeTranscriptApi.get_transcript(video_id,languages=['en-IN', 'en','hi'])
         transcript = " ".join([entry["text"] for entry in transcript_text])
         return transcript
     except Exception as e:
