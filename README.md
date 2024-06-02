@@ -2,6 +2,9 @@
 
 This app makes summarizing YouTube videos easy! Just paste a video link, and it'll give you a short and clear summary of what the video is about. Whether it's a tutorial, news report, or interview, this tool condenses the main points into a brief summary, saving you time and helping you grasp the essence of the video quickly.
 
+ **Try it for yourself** [here](https://youtube-vid-summary.streamlit.app)
+
+
 https://github.com/MeetShah9/YouTube_video_summary/assets/148629466/a3182a4e-76ce-4c35-86c7-c0a52ddf6da3
 
 ## Technologies Used
